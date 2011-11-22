@@ -18,11 +18,11 @@ Create your collections like so:
       
     });
 
+Feel free to use Backbone as you usually would, this is a drop-in replacement.
+
 ### Running Specs
 
 The test specs are written using [Jasmine.js](http://pivotal.github.com/jasmine/). Open spec/spec.html in your browser to run the suite.
-
-Feel free to use Backbone as you usually would, this is a drop-in replacement.
 
 ## Credits
 
