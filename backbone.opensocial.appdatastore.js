@@ -59,7 +59,7 @@ _.extend(AppDataStore.prototype, {
 
         // Convert model to key/value JSON
         var data = {};
-        data[this.name + "-" + model.id] = JSON.stringify(model);
+        data[this.name + "-" + model.id] = JSON.stringify(model.toJSON());
 
         // Update appdata with model data
         osapi.appdata.update({data: data}).execute(function(response){
